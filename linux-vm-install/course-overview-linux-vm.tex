@@ -1,5 +1,5 @@
 \documentclass[12pt]{beamer}
-
+\usepackage[T1]{fontenc}
 %\includeonlyframes{current}
 
 \usetheme[sectionpage=none, subsectionpage=progressbar, progressbar=foot, numbering=fraction]{metropolis}
@@ -46,8 +46,8 @@
 
 
 \title{Hacker Tools: \\Virtual machines and installing Ubuntu}
-\author{Adapted from Julius Putra Tanu Setiaji's 2019 Hacker Tools run}
-\date{1 September 2020}
+\author{Adapted from Julius Putra Tanu Setiaji's Hacker Tools run}
+\date{27 August 2024}
 
 \begin{document}
 
@@ -66,25 +66,15 @@
     \url{https://nushackers.org}
   \end{center}
 
-  \begin{center}
-    \textbf{hacker}school
-
-    Friday \textbf{Hacks}
-
-    \textbf{Hack}\&Roll
-
-    \textbf{Hacker} Tools
-  \end{center}
-
 \end{frame}
 
 \begin{frame}{Required Software}
   \begin{itemize}
     \item Download and install VirtualBox
-    \item Download Ubuntu 20.04 ISO file
+    \item Download Ubuntu 24.04 ISO file
   \end{itemize}
 
-  You can find the link to download both of these on our Facebook event page or in our Telegram channel.
+  You can find the link to download both of these in our Telegram channel.
 \end{frame}
 
 \begin{frame}{What is a Hacker?}
@@ -460,32 +450,28 @@
 \end{frame}
 
 \subsection{Go crazy and experiment!}
-\begin{frame}[fragile]{Some risky things to do}
+\begin{frame}{Some risky things to do}
   Open up the terminal (shortcut: \keys{\ctrlwin + \Altwin + t}) and figure out what these commands do and try them out:
 
-  \mintinline{bash}{sudo rm -rf --no-preserve-root /}
+ \begin{itemize}
+     \item sudo rm -rf --no-preserve-root /
+     \item :()\{:|:\&\};:
+ \end{itemize}
 
-  \mintinline{bash}{:(){:|:&};:}
 \end{frame}
 
 \section{Conclusion}
-\subsection{}
-\begin{frame}{Possible Alternatives for Next Week's Hacker Tools}
-  \begin{itemize}
-    \item On Windows 10, you can install WSL by following the instruction at \url{https://is.gd/wsl2019}
-    \item macOS is already a Unix, so you can just use \texttt{Terminal.app}
-    \item Or if you're already using Linux full-time, then great!
-  \end{itemize}
-\end{frame}
 
 \begin{frame}
   \frametitle{Talk to us!}
+  \begin{center}
   \begin{itemize}
-    \item \textbf{Feedback}: \url{https://tny.im/2020ht1}
-    \item \textbf{Next Hacker Tools}:
+\item \textbf{Feedback}:
 
-          Shell and scripting, 8 September 2020, 6.30pm
+        \includegraphics[width=0.5\linewidth]{image.png}
+
   \end{itemize}
+\end{center}
 \end{frame}
 
 \end{document}
